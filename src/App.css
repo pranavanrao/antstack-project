@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5rem;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(201, 207, 207);
+    height: 5rem;
+}
+
+td {
+    border-bottom: 1px solid black ;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+li {
+    list-style-type: none;
+}
